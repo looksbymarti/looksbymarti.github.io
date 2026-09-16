@@ -362,11 +362,11 @@ async function showView(view, focusHeading = false) {
   pendingView = null;
   portfolio.classList.toggle("is-collection", view !== "home");
   const viewTitles = {
-    home: "Portfolio - Martina",
-    food: "Food - Martina",
-    beauty: "Beauty - Martina",
-    about: "About me - Martina",
-    contact: "Lavoriamo insieme - Martina",
+    home: "Portfolio",
+    food: "Food",
+    beauty: "Beauty",
+    about: "About me",
+    contact: "Contact",
   };
   document.title = viewTitles[view];
   window.scrollTo(0, 0);

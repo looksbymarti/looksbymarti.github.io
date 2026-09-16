@@ -61,7 +61,7 @@ const raccolte = {
     {
       titolo: "Stylevana SPF",
       piattaforma: "Instagram",
-      anteprima: "./img/beauty-stylevana-spf.jpg",
+      anteprima: "./img/beauty-stylevana-spf.png",
       url: "https://www.instagram.com/reel/DcgH5r2MMHb/",
       embed: "https://www.instagram.com/reel/DcgH5r2MMHb/embed/",
     },

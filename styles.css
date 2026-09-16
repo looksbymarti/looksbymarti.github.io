@@ -45,6 +45,8 @@ a:focus-visible {
 }
 
 @media (hover: none) and (pointer: coarse) {
+  .video-gallery:focus,
+  .video-gallery:focus-visible,
   .video-banner:focus,
   .video-banner:focus-visible,
   .video-dialog__close:focus,
@@ -215,6 +217,7 @@ a:focus-visible {
 .home-content h1 {
   max-width: 360px;
   margin: 6px 0 20px;
+  color: var(--wine-deep);
   font-size: clamp(1.6875rem, 7.4vw, 2.1875rem);
   font-weight: 800;
   letter-spacing: -0.055em;
@@ -310,7 +313,7 @@ a:focus-visible {
 .collection-title {
   min-width: 0;
   margin: 0 0 0 23px;
-  color: var(--ink);
+  color: var(--wine-deep);
   font-size: clamp(1.5625rem, 6.7vw, 1.9375rem);
   font-weight: 800;
   letter-spacing: -0.055em;
@@ -443,7 +446,7 @@ a:focus-visible {
 
 .collaborations-title {
   margin: 28px 25px 0;
-  color: var(--ink);
+  color: var(--wine-deep);
   font-size: clamp(1.5625rem, 6.7vw, 1.9375rem);
   font-weight: 800;
   letter-spacing: -0.055em;

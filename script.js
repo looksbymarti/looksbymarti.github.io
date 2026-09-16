@@ -1,6 +1,13 @@
 const raccolte = {
   food: [
     {
+      titolo: "Pomo d’Oro, Cascina (PI)",
+      piattaforma: "TikTok",
+      anteprima: "./img/food-pomo-doro.jpg",
+      url: "https://www.tiktok.com/@looksbymarti/video/7666043610260884768",
+      embed: "https://www.tiktok.com/player/v1/7666043610260884768",
+    },
+    {
       titolo: "Azienda Agricola Castelvecchio, Terricciola (PI)",
       piattaforma: "TikTok",
       anteprima: "./img/food-castelvecchio.jpg",
@@ -52,7 +59,7 @@ const raccolte = {
       embed: "https://www.tiktok.com/player/v1/7671225744617491745",
     },
     {
-      titolo: "Stylevana",
+      titolo: "Stylevana SPF",
       piattaforma: "Instagram",
       anteprima: "./img/beauty-stylevana-spf.jpg",
       url: "https://www.instagram.com/reel/DcgH5r2MMHb/",
@@ -72,12 +79,32 @@ const raccolte = {
       url: "https://www.tiktok.com/@looksbymarti/video/7654541025402162465",
       embed: "https://www.tiktok.com/player/v1/7654541025402162465",
     },
+    {
+      titolo: "Stylevana Centellian24",
+      piattaforma: "TikTok",
+      anteprima: "./img/collab-stylevana-centellian24.jpg",
+      url: "https://www.tiktok.com/@looksbymarti/video/7671978105698880801",
+      embed: "https://www.tiktok.com/player/v1/7671978105698880801",
+    },
   ],
 };
 
-raccolte.contact = raccolte.beauty.filter((video) =>
-  ["Medicube Zero Pore", "Stylevana"].includes(video.titolo),
-);
+raccolte.contact = [
+  ...raccolte.beauty.filter((video) =>
+    [
+      "Medicube Zero Pore",
+      "Stylevana SPF",
+      "Stylevana Centellian24",
+    ].includes(video.titolo),
+  ),
+  {
+    titolo: "IUNIK",
+    piattaforma: "TikTok",
+    anteprima: "./img/collab-iunik-sun-water.jpg",
+    url: "https://www.tiktok.com/@looksbymarti/video/7660832195598093601",
+    embed: "https://www.tiktok.com/player/v1/7660832195598093601",
+  },
+];
 
 const email = "looksbymarti@gmail.com";
 const views = {

@@ -22,11 +22,25 @@ const raccolte = {
       embed: "https://www.tiktok.com/player/v1/7676810637590154528",
     },
     {
+      titolo: "Pulcinè, Livorno (LI)",
+      piattaforma: "TikTok",
+      anteprima: "./img/food-pulcine.jpg",
+      url: "https://www.tiktok.com/@looksbymarti/video/7689792361974533408",
+      embed: "https://www.tiktok.com/player/v1/7689792361974533408",
+    },
+    {
       titolo: "Fermento, Agriturismo Fonte Belvedere (LI)",
       piattaforma: "TikTok",
       anteprima: "./img/food-fermento.jpg",
       url: "https://www.tiktok.com/@looksbymarti/video/7656032266816195873",
       embed: "https://www.tiktok.com/player/v1/7656032266816195873",
+    },
+    {
+      titolo: "Podere Bassi, Licciana Nardi (MS)",
+      piattaforma: "Instagram",
+      anteprima: "./img/food-podere-bassi.jpg",
+      url: "https://www.instagram.com/reel/DdoJqldssvU/",
+      embed: "https://www.instagram.com/reel/DdoJqldssvU/embed/",
     },
     {
       titolo: "Royal Sushi, Livorno (LI)",
@@ -90,6 +104,12 @@ const raccolte = {
 };
 
 raccolte.contact = [
+  ...raccolte.food.filter((video) =>
+    [
+      "Pulcinè, Livorno (LI)",
+      "Podere Bassi, Licciana Nardi (MS)",
+    ].includes(video.titolo),
+  ),
   ...raccolte.beauty.filter((video) =>
     [
       "Medicube Zero Pore",

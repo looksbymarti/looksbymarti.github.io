@@ -3,56 +3,60 @@ const raccolte = {
     {
       titolo: "Pomo d’Oro, Cascina (PI)",
       piattaforma: "TikTok",
-      anteprima: "./img/food-pomo-doro.jpg",
+      anteprima: "./img/food-pomo-doro.webp",
       url: "https://www.tiktok.com/@looksbymarti/video/7666043610260884768",
       embed: "https://www.tiktok.com/player/v1/7666043610260884768",
     },
     {
       titolo: "Azienda Agricola Castelvecchio, Terricciola (PI)",
       piattaforma: "TikTok",
-      anteprima: "./img/food-castelvecchio.jpg",
+      anteprima: "./img/food-castelvecchio.webp",
       url: "https://www.tiktok.com/@looksbymarti/video/7677539700160204064",
       embed: "https://www.tiktok.com/player/v1/7677539700160204064",
     },
     {
-      titolo: "L’Antica Pizzeria Da Michele, Livorno (LI)",
+      titolo: "L’Antica Pizzeria da Michele, Livorno (LI)",
       piattaforma: "TikTok",
-      anteprima: "./img/food-da-michele.jpg",
+      anteprima: "./img/food-da-michele.webp",
       url: "https://www.tiktok.com/@looksbymarti/video/7676810637590154528",
       embed: "https://www.tiktok.com/player/v1/7676810637590154528",
     },
     {
       titolo: "Pulcinè, Livorno (LI)",
+      brand: "Pulcinè",
+      logo: "./img/logos/pulcine.webp",
       piattaforma: "TikTok",
-      anteprima: "./img/food-pulcine.jpg",
+      anteprima: "./img/food-pulcine.webp",
       url: "https://www.tiktok.com/@looksbymarti/video/7689792361974533408",
       embed: "https://www.tiktok.com/player/v1/7689792361974533408",
     },
     {
       titolo: "Fermento, Agriturismo Fonte Belvedere (LI)",
       piattaforma: "TikTok",
-      anteprima: "./img/food-fermento.jpg",
+      anteprima: "./img/food-fermento.webp",
       url: "https://www.tiktok.com/@looksbymarti/video/7656032266816195873",
       embed: "https://www.tiktok.com/player/v1/7656032266816195873",
     },
     {
       titolo: "Podere Bassi, Licciana Nardi (MS)",
+      brand: "Podere Bassi",
+      logo: "./img/logos/podere-bassi.webp",
       piattaforma: "Instagram",
-      anteprima: "./img/food-podere-bassi.jpg",
+      anteprima: "./img/food-podere-bassi.webp",
       url: "https://www.instagram.com/reel/DdoJqldssvU/",
       embed: "https://www.instagram.com/reel/DdoJqldssvU/embed/",
     },
     {
       titolo: "Royal Sushi, Livorno (LI)",
       piattaforma: "TikTok",
-      anteprima: "./img/food-royal-sushi.jpg",
+      anteprima: "./img/food-royal-sushi.webp",
       url: "https://www.tiktok.com/@looksbymarti/video/7659087679056825633",
       embed: "https://www.tiktok.com/player/v1/7659087679056825633",
     },
     {
       titolo: "May’s Pasticceria, Pisa (PI)",
       piattaforma: "TikTok",
-      anteprima: "./img/food-mays.jpg",
+      anteprima: "./img/food-mays.webp",
       url: "https://www.tiktok.com/@looksbymarti/video/7669375082606742817",
       embed: "https://www.tiktok.com/player/v1/7669375082606742817",
     },
@@ -61,42 +65,48 @@ const raccolte = {
     {
       titolo: "OVS",
       piattaforma: "TikTok",
-      anteprima: "./img/beauty-colorgram-ovs.jpg",
+      anteprima: "./img/beauty-colorgram-ovs.webp",
       url: "https://www.tiktok.com/@looksbymarti/video/7684198669683264801",
       embed: "https://www.tiktok.com/player/v1/7684198669683264801",
     },
     {
       titolo: "Medicube Zero Pore",
+      brand: "Medicube",
+      logo: "./img/logos/medicube.webp",
       piattaforma: "TikTok",
-      anteprima: "./img/beauty-medicube-zero-pore.jpg",
+      anteprima: "./img/beauty-medicube-zero-pore.webp",
       url: "https://www.tiktok.com/@looksbymarti/video/7671225744617491745",
       embed: "https://www.tiktok.com/player/v1/7671225744617491745",
     },
     {
       titolo: "Stylevana SPF",
+      brand: "Stylevana",
+      logo: "./img/logos/stylevana.webp",
       piattaforma: "Instagram",
-      anteprima: "./img/beauty-stylevana-spf.png",
+      anteprima: "./img/beauty-stylevana-spf.webp",
       url: "https://www.instagram.com/reel/DcgH5r2MMHb/",
       embed: "https://www.instagram.com/reel/DcgH5r2MMHb/embed/",
     },
     {
       titolo: "Tigotà",
       piattaforma: "Instagram",
-      anteprima: "./img/beauty-biovene-tigota.jpg",
+      anteprima: "./img/beauty-biovene-tigota.webp",
       url: "https://www.instagram.com/reel/Dc8-QrZsAUs/",
       embed: "https://www.instagram.com/reel/Dc8-QrZsAUs/embed/",
     },
     {
       titolo: "dm Italia",
       piattaforma: "TikTok",
-      anteprima: "./img/beauty-dm-summer.jpg",
+      anteprima: "./img/beauty-dm-summer.webp",
       url: "https://www.tiktok.com/@looksbymarti/video/7654541025402162465",
       embed: "https://www.tiktok.com/player/v1/7654541025402162465",
     },
     {
       titolo: "Stylevana Centellian24",
+      brand: "Stylevana",
+      logo: "./img/logos/stylevana.webp",
       piattaforma: "TikTok",
-      anteprima: "./img/collab-stylevana-centellian24.jpg",
+      anteprima: "./img/collab-stylevana-centellian24.webp",
       url: "https://www.tiktok.com/@looksbymarti/video/7671978105698880801",
       embed: "https://www.tiktok.com/player/v1/7671978105698880801",
     },
@@ -105,22 +115,17 @@ const raccolte = {
 
 raccolte.contact = [
   ...raccolte.food.filter((video) =>
-    [
-      "Pulcinè, Livorno (LI)",
-      "Podere Bassi, Licciana Nardi (MS)",
-    ].includes(video.titolo),
+    ["Pulcinè, Livorno (LI)", "Podere Bassi, Licciana Nardi (MS)"].includes(video.titolo),
   ),
   ...raccolte.beauty.filter((video) =>
-    [
-      "Medicube Zero Pore",
-      "Stylevana SPF",
-      "Stylevana Centellian24",
-    ].includes(video.titolo),
+    ["Medicube Zero Pore", "Stylevana SPF", "Stylevana Centellian24"].includes(video.titolo),
   ),
   {
     titolo: "IUNIK",
+    brand: "IUNIK",
+    logo: "./img/logos/iunik.webp",
     piattaforma: "TikTok",
-    anteprima: "./img/collab-iunik-sun-water.jpg",
+    anteprima: "./img/collab-iunik-sun-water.webp",
     url: "https://www.tiktok.com/@looksbymarti/video/7660832195598093601",
     embed: "https://www.tiktok.com/player/v1/7660832195598093601",
   },
@@ -153,17 +158,20 @@ const desktopGallery = window.matchMedia("(min-width: 1100px)");
 const tabletGallery = window.matchMedia("(min-width: 700px) and (max-width: 1099px)");
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 const baseUrl = window.location.pathname + window.location.search;
-const cardObserver = "IntersectionObserver" in window &&
-  !window.matchMedia("(prefers-reduced-motion: reduce)").matches
-  ? new IntersectionObserver((entries, observer) => {
-    for (const entry of entries) {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("is-visible");
-        observer.unobserve(entry.target);
-      }
-    }
-  }, { threshold: 0.08 })
-  : null;
+const cardObserver =
+  "IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ? new IntersectionObserver(
+        (entries, observer) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              observer.unobserve(entry.target);
+            }
+          }
+        },
+        { threshold: 0.08 },
+      )
+    : null;
 if (cardObserver) document.documentElement.classList.add("motion-ready");
 let activeView = null;
 let pendingView = null;
@@ -214,9 +222,7 @@ function animateVideoFlight(fromRect, toRect, imageSource, duration, closing = f
       ];
   const animation = flight.animate(keyframes, {
     duration,
-    easing: closing
-      ? "cubic-bezier(0.4, 0, 0.7, 0.2)"
-      : "cubic-bezier(0.2, 0.78, 0.2, 1)",
+    easing: closing ? "cubic-bezier(0.4, 0, 0.7, 0.2)" : "cubic-bezier(0.2, 0.78, 0.2, 1)",
     fill: "forwards",
   });
 
@@ -286,22 +292,32 @@ async function closeVideo({ immediate = false, restoreFocus = restoreVideoFocus 
 function videoCard(video) {
   const card = element("button", "video-banner");
   card.type = "button";
-  card.setAttribute("aria-label", "Guarda " + video.titolo + " a schermo intero");
+  const collab = video.brand ? ", collaborazione con " + video.brand : "";
+  card.setAttribute("aria-label", "Guarda " + video.titolo + collab + " a schermo intero");
 
   const image = element("img", "video-banner__image");
   image.src = video.anteprima;
   image.alt = "";
   image.loading = "lazy";
-  // Reapply the crop whenever the gallery recreates this thumbnail.
-  if (video.anteprima === "./img/food-castelvecchio.jpg") {
-    image.setAttribute("style", "scale: 110%;");
-  }
 
-  card.append(
-    image,
-    element("span", "video-banner__label", video.titolo),
-    element("span", "video-banner__play"),
-  );
+  const label = element("span", "video-banner__label", video.titolo);
+  card.append(image, element("span", "video-banner__play"));
+
+  // Collaboration videos: the brand logo (top left) replaces the title.
+  // If the logo file is missing, the text title is shown instead.
+  if (video.logo) {
+    const badge = element("span", "video-banner__logo");
+    const logo = element("img");
+    logo.src = video.logo;
+    logo.alt = "";
+    logo.loading = "lazy";
+    logo.decoding = "async";
+    logo.addEventListener("error", () => badge.replaceWith(label), { once: true });
+    badge.append(logo);
+    card.append(badge);
+  } else {
+    card.append(label);
+  }
   card.addEventListener("click", (event) => openVideo(video, card, event.detail === 0));
   return card;
 }
@@ -344,7 +360,6 @@ function fitCollectionSummary() {
   if (!intro) return;
 
   intro.style.removeProperty("font-size");
-
 }
 
 function startViewEntry(section) {
@@ -381,12 +396,13 @@ async function showView(view, focusHeading = false) {
   activeView = view;
   pendingView = null;
   portfolio.classList.toggle("is-collection", view !== "home");
+  const siteTitle = "Martina (@looksbymarti) | Content creator food e beauty in Toscana";
   const viewTitles = {
-    home: "Portfolio",
-    food: "Food",
-    beauty: "Beauty",
-    about: "About me",
-    contact: "Contact",
+    home: siteTitle,
+    food: "Food | Martina (@looksbymarti)",
+    beauty: "Beauty & Skincare | Martina (@looksbymarti)",
+    about: "About me | Martina (@looksbymarti)",
+    contact: "Lavoriamo insieme | Martina (@looksbymarti)",
   };
   document.title = viewTitles[view];
   window.scrollTo(0, 0);
@@ -511,11 +527,17 @@ dialog.addEventListener("click", (event) => {
 });
 window.addEventListener("popstate", () => showView(viewFromHash(), true));
 window.addEventListener("hashchange", () => showView(viewFromHash(), true));
-window.addEventListener("scroll", () => {
-  if (!tabletGallery.matches) updateScrollCues();
-}, { passive: true });
+window.addEventListener(
+  "scroll",
+  () => {
+    if (!tabletGallery.matches) updateScrollCues();
+  },
+  { passive: true },
+);
 viewContainer.addEventListener("scroll", updateScrollCues, { passive: true });
-Object.values(galleries).forEach((gallery) => gallery.addEventListener("scroll", updateScrollCues, { passive: true }));
+Object.values(galleries).forEach((gallery) =>
+  gallery.addEventListener("scroll", updateScrollCues, { passive: true }),
+);
 window.addEventListener("resize", () => {
   fitCollectionSummary();
   updateScrollCues();

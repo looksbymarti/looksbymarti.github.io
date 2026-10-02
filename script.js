@@ -15,6 +15,13 @@ const raccolte = {
       embed: "https://www.tiktok.com/player/v1/7677539700160204064",
     },
     {
+      titolo: "Valù Bakery & Cakes, Firenze (FI)",
+      piattaforma: "TikTok",
+      anteprima: "./img/food-valu.jpg",
+      url: "https://www.tiktok.com/@looksbymarti/video/7690891375180631329",
+      embed: "https://www.tiktok.com/player/v1/7690891375180631329",
+    },
+    {
       titolo: "L’Antica Pizzeria da Michele, Livorno (LI)",
       piattaforma: "TikTok",
       anteprima: "./img/food-da-michele.webp",
